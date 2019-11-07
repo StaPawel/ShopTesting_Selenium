@@ -1,0 +1,26 @@
+{
+  "invalidEmailAddresses": [
+    "example@email@com",
+    "example.email@com",
+    "example@email",
+    "example.com",
+    "example@email.com;",
+    "example@@email.com",
+    "true",
+    "false",
+    "null",
+    ";",
+    "@.com",
+    ""
+  ],
+  "email": "pawel.test@test.com",
+  "invalidEmail": "pawel.test.test.com",
+  "password": "qwerty",
+  "invalidPassword": "qwer",
+
+  "emptyEmailFieldMessage": "An email address required.",
+  "invalidEmailMessage": "Invalid email address.",
+  "emptyPasswordFieldMessage": "Password is required.",
+  "invalidPasswordMessage": "Invalid password."
+
+}

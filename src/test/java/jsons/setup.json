@@ -1,0 +1,5 @@
+{
+    "driverPath": "C:\\chromeDriver\\chromedriver.exe",
+    "urlPath": "http://automationpractice.com/index.php",
+    "webDriver": "webdriver.chrome.driver"
+  }

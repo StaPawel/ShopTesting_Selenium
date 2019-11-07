@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Shop Testing">
+
+    <test name="setup">
+        <classes>
+            <class name="setup.Setup"/>
+        </classes>
+    </test>
+    <test name="EnterEmail">
+        <classes>
+            <class name="tests.EnterRegisterEmail"/>
+        </classes>
+    </test>
+    <test name="FillForm">
+        <classes>
+            <class name="tests.FillRegisterForm"/>
+        </classes>
+    </test>
+    <test name="Login">
+        <classes>
+            <class name="tests.LoginToAccount"/>
+        </classes>
+    </test>
+    <test name="Basket">
+        <classes>
+            <class name="tests.BasketFunctionality"/>
+        </classes>
+    </test>
+
+
+</suite>
